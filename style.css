@@ -265,15 +265,6 @@ img.aligncenter {
   color: #7d3500;
 }
 
-#splash {
-  max-width: 1000px;
-  width: 100%;
-  height: 260px;
-  margin: 0px auto;
-  background: url(images/img05.webp) no-repeat center top;
-  background-size: cover;
-}
-
 /* Page */
 
 #page {
@@ -565,10 +556,6 @@ img.aligncenter {
     box-sizing: border-box;
   }
 
-  #splash {
-    height: 140px;
-  }
-
   img.alignleft,
   img.alignright {
     float: none;
@@ -615,10 +602,6 @@ img.aligncenter {
   #menu a {
     font-size: 13px;
     padding: 8px 10px;
-  }
-
-  #splash {
-    height: 90px;
   }
 
   #page-bgbtm {
