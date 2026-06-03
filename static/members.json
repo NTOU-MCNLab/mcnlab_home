@@ -1,0 +1,180 @@
+{
+  "postgraduate": [
+    {
+      "name": "張丞祐",
+      "dept": "資工碩士班",
+      "period": "2024.08~迄今",
+      "img": "113-cychang.webp"
+    },
+    {
+      "name": "賴盈萱",
+      "dept": "資工碩士班",
+      "period": "2024.08~迄今",
+      "img": "113-yhlai.webp"
+    },
+    {
+      "name": "陳昱寬",
+      "dept": "資工碩士班",
+      "period": "2025.08~迄今",
+      "img": "114-ykchen.webp"
+    },
+    {
+      "name": "陳建宇",
+      "dept": "資工碩士班",
+      "period": "2025.08~迄今",
+      "img": "114-jychen.webp"
+    },
+    {
+      "name": "瞿靖庭",
+      "dept": "資工碩士班",
+      "period": "2025.08~迄今",
+      "img": "114-ctchai.webp"
+    },
+    {
+      "name": "高翊媗",
+      "dept": "資工碩士班",
+      "period": "2025.08~迄今",
+      "img": "114-yskao.webp"
+    }
+  ],
+  "graduate": [
+    {
+      "name": "官鼎鈞",
+      "dept": "資工碩士班",
+      "period": "2023.08~2026.02",
+      "img": "112-tckuan.webp",
+      "unit": ""
+    },
+    {
+      "name": "林家安",
+      "dept": "資工碩士班(五年一貫)",
+      "period": "2024.02~2026.02",
+      "img": "112-2-calin.webp",
+      "unit": ""
+    },
+    {
+      "name": "洪偉倫",
+      "dept": "資訊工程學系碩士班",
+      "period": "2023.08~2025.06",
+      "img": "112-wlhung.webp",
+      "unit": ""
+    },{
+      "name": "張哲瑋",
+      "dept": "資訊工程學系碩士班",
+      "period": "2023.08~2025.06",
+      "img": "112-cwchang.webp",
+      "unit": ""
+    },{
+      "name": "趙偉廷",
+      "dept": "資訊工程學系碩士班",
+      "period": "2023.08~2025.06",
+      "img": "112-wtchao.webp",
+      "unit": ""
+    },{
+      "name": "許旻璿",
+      "dept": "資訊工程學系碩士班",
+      "period": "2022.08~2024.06",
+      "img": "mhhsu.webp",
+      "unit": ""
+    },{
+      "name": "張學友",
+      "dept": "資訊工程學系碩士班",
+      "period": "2022.08~2024.06",
+      "img": "hychang.webp",
+      "unit": ""
+    },{
+      "name": "藍元志",
+      "dept": "資訊工程學系碩士班",
+      "period": "2022.02~2024.01",
+      "img": "yclan.webp",
+      "unit": "元大證券 全端工程師"
+    },{
+      "name": "林育承",
+      "dept": "資訊工程學系碩士班",
+      "period": "2021.08~2023.06",
+      "img": "yclin.webp",
+      "unit": ""
+    },{
+      "name": "董祐誠",
+      "dept": "資訊工程學系碩士班",
+      "period": "2021.08~2023.06",
+      "img": "yctung.webp",
+      "unit": "新創公司"
+    },{
+      "name": "林文皓",
+      "dept": "資訊工程學系碩士班",
+      "period": "2018.08~2020.06(五年一貫)",
+      "img": "whlin.webp",
+      "unit": "創業"
+    },{
+      "name": "廖柏硯",
+      "dept": "資訊網路與多媒體研究所",
+      "period": "2018.08~2020.06",
+      "img": "pyliao.webp",
+      "unit": ""
+    },{
+      "name": "徐楚喬",
+      "dept": "資訊工程學系碩士班",
+      "period": "2017.08~2019.06",
+      "img": "cchsu.webp",
+      "unit": "鴻齡科技股份有限公司(鴻海集團)BIOS韌體工程師"
+    },{
+      "name": "陳柏銘",
+      "dept": "資訊工程學系碩士班",
+      "period": "2016.08~2018.06",
+      "img": "bmchen.webp",
+      "unit": "鼎新電腦 後端研發工程師"
+    },{
+      "name": "陳友群",
+      "dept": "資訊工程學系碩士班",
+      "period": "2015.08~2017.06",
+      "img": "ycchen.webp",
+      "unit": "美商安邁(AMI)科技股份有限公司台灣分公司 軟體設計工程師"
+    },{
+      "name": "王振權",
+      "dept": "資訊工程學系碩士班",
+      "period": "2015.08~2017.06",
+      "img": "ccwang.webp",
+      "unit": "資拓宏宇 軟體設計工程師"
+    },{
+      "name": "王辰維",
+      "dept": "資訊工程學系全英語碩士班",
+      "period": "2014.08~2016.06",
+      "img": "cwwang.webp",
+      "unit": ""
+    },{
+      "name": "余昭甫",
+      "dept": "資訊網路與通訊碩士班",
+      "period": "2013.08~2015.06",
+      "img": "cfyu.webp",
+      "unit": "創業"
+    },{
+      "name": "李隆顥",
+      "dept": "資訊工程學系碩士班",
+      "period": "2013.08~2015.06(五年一貫)",
+      "img": "lhli.webp",
+      "unit": "系微股份有限公司 BIOS工程師"
+    },{
+      "name": "黃郅崴",
+      "dept": "資訊工程學系碩士班",
+      "period": "2012.08~2014.06",
+      "img": "cwhuang.webp",
+      "unit": ""
+    },{
+      "name": "廖先駿",
+      "dept": "資訊工程學系碩士班",
+      "period": "2010.08~2012.06",
+      "img": "hcliao.webp",
+      "unit": "雄獅資訊科技股份有限公司 軟體設計工程師"
+    },{
+      "name": "蔡國堂",
+      "dept": "資訊網路與通訊碩士班",
+      "period": "2009.08~2011.06",
+      "img": "kttsai.webp",
+      "unit": "華碩電腦股份有限公司 軟體設計工程師"
+    }
+  ]
+}
+
+
+

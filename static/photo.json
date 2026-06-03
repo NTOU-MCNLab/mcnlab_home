@@ -1,0 +1,63 @@
+{
+    "party" : [
+        {
+            "title": "肉次方 台北峨嵋店",
+            "img": "/images/party/20250123.webp",
+            "date": "2025/01/23"
+        },
+        {
+            "title": "饗食天堂 台北京站店",
+            "img": "/images/party/20240802.webp",
+            "date": "2024/08/02"
+        },
+        {
+            "title": "饗食天堂 台北京站店",
+            "img": "/images/party/20240202.webp",
+            "date": "2024/02/02"
+        },
+        {
+            "title": "燒肉smile潮境公園基隆店",
+            "img": "/images/party/20231207.webp",
+            "date": "2023/12/07"
+        },
+        {
+            "title": "涮樂和牛基隆店",
+            "img": "/images/party/20230914.webp",
+            "date": "2023/09/14"
+        },
+        {
+            "title": "涮樂和牛基隆店",
+            "img": "/images/party/20230531.webp",
+            "date": "2023/05/31"
+        },
+        {
+            "title": "燒肉chacha基隆店",
+            "img": "/images/party/20230329.webp",
+            "date": "2023/03/29"
+        },
+        {
+            "title": "築間基隆店",
+            "img": "/images/party/20221116.webp",
+            "date": "2022/11/16"
+        }
+    ],
+    "environment":[
+        {
+            "title": "實驗室環境1",
+            "img": "/images/Lab/lab1.webp"
+        },
+        {
+            "title": "實驗室環境2",
+            "img": "/images/Lab/lab2.webp"
+        },
+        {
+            "title": "實驗室窗戶外景",
+            "img": "/images/Lab/lab3.webp"
+        },
+        {
+            "title": "實驗室陽台外景",
+            "img": "/images/Lab/lab4.webp"
+        }
+    ]
+
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta
+      name="description"
+      content="NTOU Mobile Computing and Networking Lab — 行動計算與網路實驗室"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCN Lab's Website</title>
+    <link href="style.css" rel="stylesheet" media="screen" />
+    <style>
+      .style12 {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="logo"></div>
+      </div>
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="index.html">首頁 / Home</a>
+          </li>
+          <li><a href="teaching.html">教學 / Teaching</a></li>
+          <li><a href="research.html">研究 / Research</a></li>
+          <li><a href="service.html">服務 / Service</a></li>
+          <li class="current_page_item">
+            <a href="members.html">成員 / Members</a>
+          </li>
+          <li><a href="eng.html">English</a></li>
+          <li><a href="/lab">Login</a></li>
+        </ul>
+      </div>
+      <!-- end #menu -->
+      <div id="page">
+        <div id="page-bgtop">
+          <div id="page-bgbtm">
+            <div id="down-sidebar">
+              <h2>在學研究生</h2>
+              <table id="postgraduate-table"></table>
+
+              <h2>畢業生</h2>
+              <table id="graduate-table"></table>
+            </div>
+
+            <div style="clear: both">
+              &nbsp;
+              <p style="text-align: right">Welcome to MCN Lab's website!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end #page -->
+    </div>
+    <div id="footer">
+      <p>
+        <span class="style12"
+          >Copyright © 2021 Mobile Computing and Network Lab @ CSE.NTOU All
+          rights reserved.</span
+        >
+      </p>
+    </div>
+    <!-- end #footer -->
+    <script>
+      (function () {
+        var DATA_URL =
+          "/static/members.json";
+
+        function createMemberCell(item, isGraduate) {
+          var td = document.createElement("td");
+          td.setAttribute("width", "50%");
+          td.setAttribute("align", "center");
+          td.setAttribute("valign", "middle");
+          var div = document.createElement("div");
+          div.setAttribute("align", "justify");
+
+          var p1 = document.createElement("p");
+          var img = document.createElement("img");
+          img.src = "/images/members/" + item.img;
+          img.width = 96;
+          img.height = 128;
+          img.alt = "";
+          img.loading = "lazy";
+          img.className = "alignleft border";
+          p1.appendChild(img);
+          div.appendChild(p1);
+
+          var p2 = document.createElement("p");
+          var lines = [
+            "姓名：" + item.name,
+            "系所：" + item.dept,
+            "修業期間：" + item.period,
+          ];
+          if (isGraduate && item.unit !== undefined) {
+            lines.push("服務單位：" + item.unit);
+          }
+          lines.forEach(function (line, i) {
+            p2.appendChild(document.createTextNode(line));
+            if (i < lines.length - 1) {
+              p2.appendChild(document.createElement("br"));
+            }
+          });
+          div.appendChild(p2);
+          td.appendChild(div);
+          return td;
+        }
+
+        function populateTable(tableId, items, isGraduate) {
+          var table = document.getElementById(tableId);
+          table.setAttribute("width", "100%");
+          table.setAttribute("cellpadding", "10");
+          table.setAttribute("cellspacing", "0");
+          for (var i = 0; i < items.length; i += 2) {
+            var tr = document.createElement("tr");
+            tr.appendChild(createMemberCell(items[i], isGraduate));
+            if (i + 1 < items.length) {
+              tr.appendChild(createMemberCell(items[i + 1], isGraduate));
+            }
+            table.appendChild(tr);
+            if (i + 2 < items.length) {
+              var spacer = document.createElement("tr");
+              var spacerTd = document.createElement("td");
+              spacerTd.setAttribute("colspan", "2");
+              spacerTd.setAttribute("bgcolor", "#FFFFFF");
+              spacerTd.innerHTML = "&nbsp;";
+              spacer.appendChild(spacerTd);
+              table.appendChild(spacer);
+            }
+          }
+        }
+
+        fetch(DATA_URL)
+          .then(function (res) {
+            return res.json();
+          })
+          .then(function (data) {
+            if (data.postgraduate) {
+              populateTable("postgraduate-table", data.postgraduate, false);
+            }
+            if (data.graduate) {
+              populateTable("graduate-table", data.graduate, true);
+            }
+          })
+          .catch(function (error) {
+            console.error("Error fetching members data:", error);
+          });
+      })();
+    </script>
+  </body>
+</html>

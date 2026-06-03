@@ -1,0 +1,127 @@
+[
+  {
+    "semester": "114-2",
+    "course": [
+      {
+        "name": "高等無線通訊協定",
+        "department": "資訊工程學系 碩士班",
+        "credit": 3
+      },
+      {
+        "name": "資料庫系統",
+        "department": "資訊工程學系 碩專班",
+        "credit": 3
+      }
+    ]
+  },
+  {
+    "semester": "114-1",
+    "course": [
+      {
+        "name": "資料庫系統",
+        "department": "資訊工程學系 大學部",
+        "credit": 3
+      },
+      {
+        "name": "人工智慧概論",
+        "department": "共同教育中心 博雅教育組",
+        "credit": 2
+      }
+    ]
+  },
+  {
+    "semester": "113-2",
+    "course": [
+      {
+        "name": "高等無線通訊協定",
+        "department": "資訊工程學系 碩士班",
+        "credit": 3
+      },
+      {
+        "name": "資料庫系統",
+        "department": "資訊工程學系 碩專班",
+        "credit": 3
+      }
+    ]
+  },
+  {
+    "semester": "113-1",
+    "course": [
+      {
+        "name": "資料庫系統",
+        "department": "資訊工程學系 大學部",
+        "credit": 3
+      },
+      {
+        "name": "人工智慧概論",
+        "department": "共同教育中心 博雅教育組",
+        "credit": 2
+      }
+    ]
+  },
+  {
+    "semester": "112-2",
+    "course": [
+      {
+        "name": "高等無線通訊協定",
+        "department": "資訊工程學系 碩士班",
+        "credit": 3
+      },
+      {
+        "name": "資料庫系統",
+        "department": "資訊工程學系 碩專班",
+        "credit": 3
+      }
+    ]
+  },
+  {
+    "semester": "112-1",
+    "course": [
+      {
+        "name": "資料庫系統",
+        "department": "資訊工程學系 大學部",
+        "credit": 3
+      },
+      {
+        "name": "人工智慧概論",
+        "department": "共同教育中心 博雅教育組",
+        "credit": 2
+      }
+    ]
+  },
+  {
+    "semester": "111-2",
+    "course": [
+      {
+        "name": "編譯器",
+        "department": "資訊工程學系 大學部",
+        "credit": 3
+      },
+      {
+        "name": "資料庫系統",
+        "department": "資訊工程學系 大學部",
+        "credit": 3
+      },
+      {
+        "name": "人工智慧概論",
+        "department": "共同教育中心 博雅教育組",
+        "credit": 2
+      }
+    ]
+  },
+  {
+    "semester": "111-1",
+    "course": [
+      {
+        "name": "資料庫系統",
+        "department": "資訊工程學系 大學部",
+        "credit": 3
+      },
+      {
+        "name": "人工智慧概論",
+        "department": "共同教育中心 博雅教育組",
+        "credit": 2
+      }
+    ]
+  }
+]

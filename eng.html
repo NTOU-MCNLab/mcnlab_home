@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="NTOU Mobile Computing and Networking Lab — 行動計算與網路實驗室"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCN Lab's Website</title>
+    <link rel="preload" as="image" href="images/cf.webp" />
+    <link href="style.css" rel="stylesheet" media="screen" />
+    <style>
+      .style4 {
+        color: #e6700e;
+      }
+      .style10 {
+        font-size: larger;
+      }
+      .style14 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .style16 {
+        font-size: medium;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .style12 {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="logo"></div>
+      </div>
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="index.html">首頁 / Home</a>
+          </li>
+          <li><a href="teaching.html">教學 / Teaching</a></li>
+          <li><a href="research.html">研究 / Research</a></li>
+          <li><a href="service.html">服務 / Service</a></li>
+          <li><a href="members.html">成員 / Members</a></li>
+          <li class="current_page_item"><a href="eng.html">English</a></li>
+          <li><a href="/lab">Login</a></li>
+        </ul>
+      </div>
+      <div id="page">
+        <div id="page-bgtop">
+          <div id="page-bgbtm">
+            <div id="up-content">
+              <div class="post">
+                <h2 class="style4 title style14">
+                  <span class="style10">Jeff, Chien-Fu Cheng</span><br />
+                </h2>
+                <div class="entry">
+                  <p>
+                    <img
+                      src="images/cf.webp"
+                      width="170"
+                      height="217"
+                      alt=""
+                      class="alignleft border"
+                    />
+                    <span class="style16">Professor,</span>
+                    <span class="style16"
+                      ><br />
+                      Dept. Computer Science and Engineering,<br />
+                      National Taiwan Ocean University<br />
+                      Address: No.2, Beining Rd., Jhongjheng District, Keelung
+                      City 202, Taiwan<br />
+                      TEL: +886-2-2462-2192 ext. 6619<br />
+                      FAX: +886-2-2462-3249</span
+                    >
+                    <span class="style16"
+                      ><br />
+                      E-mail: jeffcheng(at)email.ntou.edu.tw<br />
+                      Web Site:
+                      <a href="https://mcnlab.ntou.edu.tw/eng.html"
+                        >https://mcnlab.ntou.edu.tw/</a
+                      ><br />
+                    </span>
+                  </p>
+                  <p>
+                    <span class="style16">
+                      Chien-Fu Cheng received the Ph.D. degree in computer
+                      science from National Chiao-Tung University, Hsinchu,
+                      Taiwan, in 2008. He joined the Department of Computer
+                      Science and Information Engineering, Tamkang University,
+                      Taiwan, in 2009 and was promopted to professor in 2017.
+                      Since 2021, he joined the Department of Computer Science
+                      and Engineering, National Taiwan Ocean University, Taiwan.
+                    </span>
+                  </p>
+                  <p>
+                    <span class="style16">
+                      Dr. Cheng published many papers in several prestigious
+                      conferences and journals, such as
+                      <i
+                        >IEEE LCN, IEEE MASS, IEEE VTC, IEEE WCNC, IEEE Trans.
+                        Autom. Sci. Eng., IEEE Trans. Intell. Transp. Syst.,
+                        IEEE Trans. Mobile Comput., IEEE Trans. Veh. Technol.,
+                        IEEE Internet Things J., IEEE Sensors J., and IEEE
+                        Commun. Lett., J. Netw. Comput. Appl, Comput. Netw.,
+                        Comput. Commun., Pervasive Mob. Comput., and J.
+                        Supercomput.</i
+                      >
+                      Dr. Cheng served as a TPC Member of more than 100
+                      communication and computer conferences, such as
+                      <i>IEEE GLOBECOM, IEEE ICC, IEEE INFOCOM, and IEEE WCNC</i
+                      >. He is currently an associate editor for the
+                      <i>IEEE Access, Springer Discover Sensors</i> and the
+                      <i>Elsevier Heliyon</i>.
+                    </span>
+                  </p>
+                  <p>
+                    <span class="style16">
+                      His current research interests include internet of things,
+                      cloud computing, wireless communication and mobile
+                      computing, wireless ad hoc and sensor networks,
+                      distributed computing and fault tolerant computing.
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div style="clear: both"></div>
+            </div>
+            <div id="down-sidebar">
+              <h2>Awards</h2>
+              <ol id="awards-list"></ol>
+
+              <h2>Selected Journal Papers</h2>
+              <ol id="journals-list"></ol>
+
+              <h2>Selected Conference Papers</h2>
+              <ol id="conferences-list"></ol>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+              <p style="text-align: right">Welcome to MCN Lab's website!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>
+        <span class="style12"
+          >Copyright © 2021 Mobile Computing and Network Lab @ CSE.NTOU All
+          rights reserved.</span
+        >
+      </p>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        fetch(
+          "/static/english.json",
+        )
+          .then((res) => res.json())
+          .then((data) => {
+            const awardsList = document.getElementById("awards-list");
+            data.forEach((award) => {
+              const li = document.createElement("li");
+              li.innerHTML = `<div align="justify">${award.text}</div>`;
+              awardsList.appendChild(li);
+            });
+          })
+          .catch((error) =>
+            console.error("Error fetching paper/award data:", error),
+          );
+        fetch(
+          "/static/research.json",
+        )
+          .then((res) => res.json())
+          .then((data) => {
+            const journalsList = document.getElementById("journals-list");
+            if (journalsList && data.journals) {
+              data.journals.forEach((journal) => {
+                const li = document.createElement("li");
+
+                let contentHTML = journal.title;
+                if (journal.sci) {
+                  contentHTML += ` ${journal.sci}`;
+                }
+
+                if (journal.href) {
+                  contentHTML = `<a href="${journal.href}" target="_blank" style="text-decoration:none; color:inherit;">${contentHTML}</a>`;
+                }
+
+                li.innerHTML = `<div align="justify">${contentHTML}</div>`;
+                journalsList.appendChild(li);
+              });
+            }
+
+            const conferencesList = document.getElementById("conferences-list");
+            if (conferencesList && data.conferences) {
+              data.conferences.forEach((conf) => {
+                const li = document.createElement("li");
+
+                let contentHTML = conf.title;
+                if (conf.href) {
+                  contentHTML = `<a href="${conf.href}" target="_blank" style="text-decoration:none; color:inherit;">${contentHTML}</a>`;
+                }
+
+                li.innerHTML = `<div align="justify">${contentHTML}</div>`;
+                conferencesList.appendChild(li);
+              });
+            }
+          })
+          .catch((error) =>
+            console.error("Error fetching paper/award data:", error),
+          );
+      });
+    </script>
+  </body>
+</html>

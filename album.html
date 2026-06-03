@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NTOU Mobile Computing and Networking Lab — 行動計算與網路實驗室"
+    />
+    <title>實驗室聚餐與環境照片集</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        background: linear-gradient(135deg, #1a1a1a, #2d3436);
+        padding: 2rem;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        color: white;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+
+      .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .section {
+        margin-bottom: 4rem;
+      }
+
+      .section-header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .section-header h2 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .section-header p {
+        color: #ddd;
+        font-size: 1.1rem;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        padding: 1rem;
+      }
+
+      .photo-card {
+        position: relative;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        background: white;
+        transition: transform 0.3s ease;
+      }
+
+      .photo-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .photo-card a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .photo-wrapper {
+        position: relative;
+        padding-top: 75%;
+        overflow: hidden;
+      }
+
+      .photo-wrapper img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+
+      .photo-card:hover img {
+        transform: scale(1.1);
+      }
+
+      .photo-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1.5rem;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+        color: white;
+      }
+
+      .photo-info h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .photo-info p {
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 1rem;
+        }
+
+        .gallery {
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 1rem;
+        }
+
+        .header h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>實驗室聚餐與環境照片集</h1>
+      </header>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>實驗室聚餐</h2>
+        </div>
+        <div id="party-gallery" class="gallery"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>實驗室環境</h2>
+        </div>
+        <div id="environment-gallery" class="gallery"></div>
+      </section>
+    </div>
+    <script>
+      (function () {
+        var DATA_URL =
+          "/static/photo.json";
+
+        function createCard(imgSrc, title, date) {
+          var card = document.createElement("div");
+          card.className = "photo-card";
+          var a = document.createElement("a");
+          a.href = imgSrc;
+          a.target = "_blank";
+
+          var wrapper = document.createElement("div");
+          wrapper.className = "photo-wrapper";
+          var img = document.createElement("img");
+          img.src = imgSrc;
+          img.alt = title;
+          img.loading = "lazy";
+          wrapper.appendChild(img);
+
+          var info = document.createElement("div");
+          info.className = "photo-info";
+          var h3 = document.createElement("h3");
+          h3.textContent = title;
+          info.appendChild(h3);
+          if (date) {
+            var p = document.createElement("p");
+            p.textContent = date;
+            info.appendChild(p);
+          }
+
+          a.appendChild(wrapper);
+          a.appendChild(info);
+          card.appendChild(a);
+          return card;
+        }
+
+        fetch(DATA_URL)
+          .then(function (res) {
+            return res.json();
+          })
+          .then(function (data) {
+            var partyGallery = document.getElementById("party-gallery");
+            if (data.party) {
+              data.party.forEach(function (item) {
+                partyGallery.appendChild(
+                  createCard(item.img, item.title, item.date),
+                );
+              });
+            }
+
+            var envGallery = document.getElementById("environment-gallery");
+            if (data.environment) {
+              data.environment.forEach(function (item) {
+                envGallery.appendChild(createCard(item.img, item.title));
+              });
+            }
+          })
+          .catch(function (error) {
+            console.error("Error fetching photo data:", error);
+          });
+      })();
+    </script>
+  </body>
+</html>

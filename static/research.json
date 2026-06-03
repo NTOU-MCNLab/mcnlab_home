@@ -1,0 +1,276 @@
+{
+  "journals": [
+    {
+      "title": "C.-F. Cheng*, J.-A. Lin, H.-J. Lan and G.-Y. Chen, \"Intelligent Shoreside Data Collection in UWSNs: A Dual Genetic Algorithm Framework for Routing and UGV Path Optimization,\" IEEE Internet of Things Journal . (Accepted Date: 2025/10/07)",
+      "sci": "IEEE Internet Things J.(SCI, 2024 Impact Factor: 8.9, Ranking: Top 4%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/11199320"
+    },
+    {
+      "title": "C.-F. Cheng* and W.-H. Lin, \"Deterministic Target-Barrier Coverage with Importance-Aware Sensor Deployment in IIoT,\" IEEE Sensors Journal . (Accepted Date: 2025/08/11)",
+      "sci": "IEEE Sens. J(SCI, 2024 Impact Factor:4.5, Ranking: Top 20%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/11134679"
+    },
+    {
+      "title": "C.-F. Cheng*, Y.-C. Dong, M.-H. Hsu and H.-Y. Chang, \"The Carrier-Based Sensor Deployment Problem in Industrial Internet of Things with Mesh Topologies,\" IEEE Internet of Things Journal , vol. 11, no. 24, pp. 41137-41150, December 15, 2024.",
+      "sci": "IEEE Internet Things J.(SCI, 2024 Impact Factor: 8.9, Ranking: Top 4%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/10677530"
+    },
+    {
+      "title": "C.-F. Cheng*, C.-C. Wang and H.-Y. Chang, \"An Automatic Cascaded Movement Approach to Solve the Energy Replenishment Problem in WPT-based Mobile WRSNs,\" IEEE Transactions on Automation Science and Engineering , vol. 21, no. 3, pp. 2763-2778, July 2024.",
+      "sci": "IEEE Trans. Autom. Sci. Eng.(SCI, 2024 Impact Factor:6.4, Ranking: Top 16%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/10111499"
+    },
+    {
+      "title": "C.-F. Cheng, G. Srivastava, J.C.-W. Lin and Y.-C. Lin, \"A Consensus Protocol for Unmanned Aerial Vehicle Networks in the Presence of Byzantine Faults,\" Elsevier Computers and Electrical Engineering , vol. 99, Article ID 107774, 12 pages, April 2022.",
+      "sci": "Comput. Electr. Eng.(SCI, 2024 Impact Factor:4.9, Ranking: Top 17%, Q1)",
+      "href": "https://doi.org/10.1016/j.compeleceng.2022.107774"
+    },
+    {
+      "title": "C.-F. Cheng* and Y.-C. Chen, \"The Carrier-based Sensor Deployment in Linear IWSNs with Return/Non-Return Branches,\" IEEE Sensors Journal , vol. 22, no. 6, pp. 6175-6186, March, 2022.",
+      "sci": "IEEE Sens. J(SCI, 2024 Impact Factor:4.5, Ranking: Top 20%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/9703338"
+    },
+    {
+      "title": "C.-F. Cheng* and C.-C. Hsu, \"The Deterministic Sensor Deployment Problem for Barrier Coverage in WSNs with Irregular Shape Areas,\" IEEE Sensors Journal , vol. 22, no. 3, pp. 2899-2911, February, 2022.",
+      "sci": "IEEE Sens. J(SCI, 2024 Impact Factor:4.5, Ranking: Top 20%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/9658532"
+    },
+    {
+      "title": "C.-F. Cheng, G. Srivastava, J.C.-W. Lin and Y.-C. Lin, \"Fault-Tolerance Mechanisms for Software-Defined Internet of Vehicles,\" IEEE Transactions on Intelligent Transportation Systems , vol. 22, no. 6, pp. 3859-3868, June 2021.",
+      "sci": "IEEE Trans. Intell. Transp. Syst.(SCI, 2024 Impact Factor: 8.4, Ranking: Top 3%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/9316957"
+    },
+    {
+      "title": "C.-F. Cheng*, Y.-C. Chen and J.C.-W. Lin, \"A Carrier-Based Sensor Deployment Algorithm for Perception Layer in the IoT Architecture,\" IEEE Sensors Journal , vol. 20, no. 17, pp. 10295-10305, September 2020.",
+      "sci": "IEEE Sens. J(SCI, 2024 Impact Factor:4.5, Ranking: Top 20%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/9076679"
+    },
+    {
+      "title": "C.-F. Cheng* and C.-W. Huang, \"The Harmonized Consensus Protocol in Distributed Systems,\" Springer Journal of Supercomputing , Vol. 75, No. 11, pp. 7690-7722, November 2019.",
+      "sci": "J. Supercomput.(SCI, 2024 Impact Factor: 2.7, Ranking: Top 35%, Q2)",
+      "href": "https://doi.org/10.1007/s11227-019-02970-y"
+    },
+    {
+      "title": "C.-F. Cheng* and K.-T. Tsai, \"A Flexible Consensus Protocol for Distributed Systems,\" IEEE Access , Vol. 7, pp. 90453-90464, July 2019.",
+      "sci": "IEEE Access(SCI, 2024 Impact Factor:3.6, Ranking: Top 35%, Q2)",
+      "href": "https://ieeexplore.ieee.org/document/8755853"
+    },
+    {
+      "title": "C.-F. Cheng* and C.-F. Yu, \"Mobile Data Gathering with Bounded Relay in Wireless Sensor Networks,\" IEEE Internet of Things Journal , Vol. 5, No. 5, pp. 3891-3907, June 2018.",
+      "sci": "IEEE Internet Things J.(SCI, 2024 Impact Factor: 8.9, Ranking: Top 4%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/8373693"
+    },
+    {
+      "title": "C.-F. Cheng* and  C.-W. Wang, \"The Target-Barrier Coverage Problem in Wireless Sensor Networks,\" IEEE Transactions on Mobile Computing , Vol. 17, No. 5, pp. 1216-1232, May 2018.",
+      "sci": "IEEE Trans. Mobile Comput.(SCI, 2024 Impact Factor: 9.2, Ranking: Top 3%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/8031350"
+    },
+    {
+      "title": "C.-F. Cheng*, L.-H. Li and C.-C. Wang, \"Data Gathering with Minimum Number of Relay Packets in Wireless Sensor Networks,\" IEEE Sensors Journal , Vol. 17, No. 21, pp. 7196-7208, November 2017.",
+      "sci": "IEEE Sens. J(SCI, 2024 Impact Factor:4.5, Ranking: Top 20%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/8030980"
+    },
+    {
+      "title": "C.-F. Cheng* and C.-W. Wang, \"The Barrier-Breach Problem of Barrier Coverage in Wireless Sensor Networks,\" IEEE Communications Letters , Vol. 21, No. 10, pp. 2262-2265, October 2017.",
+      "sci": "IEEE Comm. Lett.(SCI, 2024 Impact Factor: 4.4, Ranking: Top 33%, Q2)",
+      "href": "https://ieeexplore.ieee.org/document/7900327"
+    },
+    {
+      "title": "C.-F. Cheng* and K.-T. Tsai, \"Encircled Belt-Barrier Coverage in Wireless Visual Sensor Networks,\" Elsevier Pervasive and Mobile Computing , Vol. 38, pp. 233-256, July 2017.",
+      "sci": "Pervasive Mob. Comput.(SCI, 2024 Impact Factor: 3.5, Ranking: Top 38%, Q2)",
+      "href": "https://doi.org/10.1016/j.pmcj.2016.08.005"
+    },
+    {
+      "title": "C.-F. Cheng*, S.-L. Lin, C.-C. Wang and H. Li, \"Trail-based Routing Algorithms for WSNs with Uncontrolled Sink Mobility,\" Elsevier Computer Communications , Vol. 106, pp. 57-74, July 2017.",
+      "sci": "Comput. Commun.(SCI, 2024 Impact Factor: 4.3, Ranking: Top 25%, Q2)",
+      "href": "https://doi.org/10.1016/j.comcom.2017.03.004"
+    },
+    {
+      "title": "C.-F. Cheng* and  L.-H. Li, \"Data Gathering Problem with the Data Importance Consideration in Underwater Wireless Sensor Networks,\" Elsevier Journal of Network and Computer Applications , Vol. 78, pp. 300-312, January 2017.",
+      "sci": "J. Netw. Comput. Appl.(SCI, 2024 Impact Factor: 8.0, Ranking: Top 5%, Q1)",
+      "href": "https://doi.org/10.1016/j.jnca.2016.10.010"
+    },
+    {
+      "title": "C.-F. Cheng* and C.-F. Yu, \"Data Gathering in Wireless Sensor Networks: A Combine-TSP-Reduce Approach,\" IEEE Transactions on Vehicular Technology , Vol. 65, No. 4, pp. 2309-2324, April 2016.",
+      "sci": "IEEE Trans. Veh. Technol.(SCI, 2024 Impact Factor: 7.1, Ranking: Top 11%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/7332969"
+    },
+    {
+      "title": "C.-F. Cheng*, C.-W. Huang and L.-H. Li, \"Mobile Sensor Relocation Problem: Finding the Optimal (Nearest) Redundant Sensor with Low Message Overhead,\" Elsevier Computer Networks , Vol. 91, pp. 407-424, November 2015.",
+      "sci": "Comput. Netw.(SCI, 2024 Impact Factor:4.6, Ranking: Top 18%, Q1)",
+      "href": "https://doi.org/10.1016/j.comnet.2015.08.022"
+    },
+    {
+      "title": "C.-F. Cheng* and C.-W. Huang, \"An Energy-Balanced and Timely Self-Relocation Algorithm for Grid-based Mobile WSNs,\" IEEE Sensors Journal , Vol. 15, No. 8, pp. 4184-4193, August 2015.",
+      "sci": "IEEE Sens. J(SCI, 2024 Impact Factor:4.5, Ranking: Top 20%, Q1)",
+      "href": "https://ieeexplore.ieee.org/abstract/document/7061386"
+    },
+    {
+      "title": "C.-F. Cheng* and K.-T. Tsai, \"A Recursive Byzantine-Resilient Protocol,\" Elsevier Journal of Network and Computer Applications , Vol. 48, pp. 87-98, Febrary 2015.",
+      "sci": "J. Netw. Comput. Appl.(SCI, 2024 Impact Factor: 8.0, Ranking: Top 5%, Q1)",
+      "href": "https://doi.org/10.1016/j.jnca.2014.10.010"
+    },
+    {
+      "title": "C.-F. Cheng* and H.-C. Liao, \"The k-Set Consensus Problem with Weight Consideration,\" Springer Journal of Supercomputing , Vol. 71, No. 1, pp. 144-161, January 2015.",
+      "sci": "J. Supercomput.(SCI, 2024 Impact Factor: 2.7, Ranking: Top 35%, Q2)",
+      "href": "https://doi.org/10.1007/s11227-014-1291-x"
+    },
+    {
+      "title": "C.-F. Cheng*, T.-Y. Wu and H.-C. Liao, \"A Density-Barrier Construction Algorithm with Minimum Total Movement in Mobile WSNs,\" Elsevier Computer Networks , Vol. 62, pp. 208-220, April 2014.",
+      "sci": "Comput. Netw.(SCI, 2024 Impact Factor:4.6, Ranking: Top 18%, Q1)",
+      "href": "https://doi.org/10.1016/j.bjp.2013.12.001"
+    },
+    {
+      "title": "C.-F. Cheng* and K.-T. Tsai, \"From Immediate Agreement to Eventual Agreement: Early Stopping Agreement Protocol for Dynamic Networks with Malicious Faulty Processors,\" Springer Journal of Supercomputing , Vol. 62, No. 2, pp. 874-894, November 2012.",
+      "sci": "J. Supercomput.(SCI, 2024 Impact Factor: 2.7, Ranking: Top 35%, Q2)",
+      "href": "https://doi.org/10.1007/s11227-012-0758-x"
+    },
+    {
+      "title": "C.-F. Cheng* and K.-T. Tsai, \"Eventual Strong Consensus with Fault Detection in the Presence of Dual Failure Mode on Processors under Dynamic Networks,\" Elsevier Journal of Network and Computer Applications , Vol. 35, No. 4, pp. 1260-1276, July 2012.",
+      "sci": "J. Netw. Comput. Appl.(SCI, 2024 Impact Factor: 8.0, Ranking: Top 5%, Q1)",
+      "href": "https://doi.org/10.1016/j.jnca.2012.01.011"
+    },
+    {
+      "title": "C.-F. Cheng* and K.-T. Tsai, \"Distributed Barrier Coverage in Wireless Visual Sensor Networks with \u03B2-QoM,\" IEEE Sensors Journal , Vol. 12, No. 6, pp.1726-1735, June 2012.",
+      "sci": "IEEE Sens. J(SCI, 2024 Impact Factor:4.5, Ranking: Top 20%, Q1)",
+      "href": "https://ieeexplore.ieee.org/document/6094154"
+    },
+    {
+      "title": "C.-F. Cheng, S.-C. Wang and T. Liang, \"The Anatomy Study of Server-initial Agreement for General Hierarchy Wired/Wireless Networks,\" Elsevier Computer Standards and Interfaces , Vol. 31, No. 1, pp. 219-226, January 2009.",
+      "sci": "Comput. Stand. Interfaces(SCI, 2024 Impact Factor: 3.1, Ranking: Top 32%, Q2)",
+      "href": "https://doi.org/10.1016/j.csi.2007.12.004"
+    },
+    {
+      "title": "C.-F. Cheng, S.-C. Wang and T. Liang, \"Multi-Agents Schema of Mobile IP protocol for Mobile Environment,\" ACM Operating Systems Review , Vol. 39, No. 4, pp. 46-65, October 2005.",
+      "sci": "(EI)",
+      "href": "https://dl.acm.org/doi/10.1145/1088446.1088451"
+    },
+    {
+      "title": "S.-C. Wang, K.-Q. Yan and C.-F. Cheng , \"Efficient Multicasting Agreement Protocol,\" Elsevier Computer Standards and Interfaces , Vol. 26, No. 2, pp. 93-111, March 2004.",
+      "sci": "Comput. Stand. Interfaces(SCI, 2024 Impact Factor: 3.1, Ranking: Top 32%, Q2)",
+      "href": "https://doi.org/10.1016/S0920-5489(03)00070-9"
+    },
+    {
+      "title": "S.-C. Wang, K.-Q. Yan and C.-F. Cheng, \"Reaching Agreement on an Unknown Network with Partial Graphic Information,\" ACM Operating Systems Review , Vol. 37, No. 4, pp. 70-89, October 2003.",
+      "sci": "(EI)",
+      "href": "https://dl.acm.org/doi/10.1145/958965.958973"
+    },
+    {
+      "title": "S.-C. Wang, K.-Q. Yan and\u3000C.-F. Cheng, \"Asynchronous Consensus Protocol for the Unreliable Un-fully Connected Network,\" ACM Operating Systems Review , Vol. 37, No. 3, pp. 43-54, July 2003.",
+      "sci": "(EI)",
+      "href": "https://dl.acm.org/doi/10.1145/881783.881789"
+    }
+  ],
+  "conferences": [
+    {
+      "title": "C.-F. Cheng and B.-Y. Liao, \"An Enhanced Approach for RFID Reader Deployment in Industrial IoT Systems with Collision Avoidance and Optimized Coverage,\" Proceeding of the 10th IEEE International Conference on Dependable Systems and Their Applications (IEEE DSA 2023) , 10-11 August, 2023, Tokyo, Japan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/10314280"
+    },
+    {
+      "title": "C.-F. Cheng W.-H Lin and C.-Y. Lin, \"Considerations of Charging Vehicles and Environmental Charging in Sensor Deployment Problems,\" Proceeding of the IEEE International Conference on Consumer Electronics \u2013 Taiwan (IEEE ICCE-TW 2023) , 17-19 July, 2023, Pingtung, Taiwan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/10226651"
+    },
+    {
+      "title": "U. Ahmed, J.C.-W Lin, P. Fournier-Viger, and C.-F. Cheng, \"Privacy-Preserving Periodic Frequent Pattern Model in AIoT Applications,\" Proceeding of the IEEE International Symposium on Intelligent Signal Processing and Communication Systems (IEEE ISPACS 2021) , 17-19 July, 2023, Hualien, Taiwan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/9651132"
+    },
+    {
+      "title": "C.-F. Cheng and C.-C. Hsu, \"A Fault-tolerant Consensus Protocol for Software-Defined Networks,\" Proceeding of the 24th IEEE Pacific Rim International Symposium on Dependable Computing (IEEE PRDC 2019) , 01-03 December, 2019, Kyoto, Japan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/8952119"
+    },
+    {
+      "title": "C.-F. Cheng and C.-C. Wang, \"Energy Replenishment Problem in Mobile WRSNs,\" Proceeding of the 15th IEEE International Conference on Mobile Ad-hoc and Sensor Systems (IEEE MASS 2018) , 09-12 October, 2018, Chengdu, China. (EI)",
+      "href": "https://doi.org/10.1109/MASS.2018.00029"
+    },
+    {
+      "title": "C.-F. Cheng and S.-L. Lin, \"A Hole-Bypassing Routing Algorithm for WANETs,\" Proceeding of the 42nd IEEE Conference on Local Computer Networks (IEEE LCN 2017) , 09-12 October, 2017, Singapore. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/8109405"
+    },
+    {
+      "title": "C.-F. Cheng and H. Lee, \"Data Gathering in Wireless Sensor Networks with Uncontrolled Sink Mobility,\" Proceeding of the 83rd IEEE Vehicular Technology Conference (IEEE VTC 2016-Spring) , 15-18 May, 2016, Nanjing, China. (EI)",
+      "href": "https://doi.org/10.1109/VTCSpring.2016.7504183"
+    },
+    {
+      "title": "C.-F. Cheng and K.-T. Tsai, \"Barrier Coverage in Wireless Visual Sensor Networks with Importance of Image Consideration,\" Proceeding of the IEEE International Conference on Ubiquitous and Future Networks (IEEE ICUFN 2015) , 07-10 July, 2015, Sapporo, Japan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/7182651"
+    },
+    {
+      "title": "C.-F. Cheng, \"A New Direction for Solving the Consensus Problem in Networked Systems,\" Proceeding of the IEEE Conference on Computer Communications Workshops (IEEE INFOCOM WKSHPS 2015) , 26 April ~ 01 May, 2015, Hong Kong, China. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/7179462"
+    },
+    {
+      "title": "C.-F. Cheng, C.-W. Huang and M.-S. Pan, \"A Matching Algorithm with Low Message Overhead for Sensor Relocation Problem,\" Proceeding of the 12th IEEE International Conference on Dependable, Autonomic and Secure Computing (IEEE DASC 2014) , 24-27 August, 2014, Dalian, China. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/6945706"
+    },
+    {
+      "title": "C.-F. Cheng, \"Obtaining Consistent Good/Bad Plan Set in the Presence of Faults,\" Proceeding of IEEE Wireless Communications and Networking Conference (IEEE WCNC 2013) , 07-10 April, 2013, Shanghai, China. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/6554578"
+    },
+    {
+      "title": "M.-S. Pan, P.-L. Liu and C.-F. Cheng, \"Convergecast in ZigBee Tree-Based Wireless Sensor Networks,\" Proceeding of IEEE Wireless Communications and Networking Conference (IEEE WCNC 2013) , 07-10 April, 2013, Shanghai, China. (EI)",
+      "href": "https://doi.org/10.1109/WCNC.2013.6554780"
+    },
+    {
+      "title": "C.-F. Cheng and K.-T. Tsai, \"Belt-Barrier Construction Algorithm for WVSNs,\" Proceeding of IEEE Wireless Communications and Networking Conference (IEEE WCNC 2012) , 01-04 April, 2012, Paris, France. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/6214349"
+    },
+    {
+      "title": "C.-F. Cheng, S.-C. Wang and T. Liang, \"Server-initiated Byzantine Agreement over Two-Level Combined Wired/Wireless Networks,\" Proceeding of the 7th International Conference on Parallel and Distributed Computing, Applications and Technologies (IEEE PDCAT 2006) , 4-7 December 2006, Taipei, Taiwan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/4032170"
+    },
+    {
+      "title": "C.-F. Cheng, S.-C. Wang and T. Liang, \"Zone-Oriented Byzantine Agreement on Zone-Based Wireless Ad-Hoc Network,\" Proceeding of the IEEE High Performance Computing and Communications (IEEE HPCC 2006) , 13-15 September 2006, Munich, Germany. (EI)",
+      "href": "https://doi.org/10.1007/11847366_88"
+    },
+    {
+      "title": "S.-C. Wang, W.-P. Yang and C.-F. Cheng, \"Byzantine Agreement on Mobile Ad-Hoc Network,\" Proceeding of the International Conference on Networking, Sensing and Control (IEEE ICNSC 2004) , 21-23 March 2004, Taipei, Taiwan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/1297408"
+    },
+    {
+      "title": "S.-C. Wang, K.-Q. Yan and C.-F. Cheng, \"Evidence-based MultiCasting Fault Diagnosis Agreement with Fallible Processors,\" Proceeding of the 32nd International Conference on Parallel Processing (IEEE ICPP 2003) , 6-9 October 2003, Kaohsiung, Taiwan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/1240567"
+    },
+    {
+      "title": "S.-C. Wang, K.-Q. Yan and C.-F. Cheng, \"Achieving High Efficient Byzantine Agreement with Dual Components Failure Mode on a Multicasting Network,\" Proceeding of the 9th International Conference on Parallel and Distributed Systems (IEEE ICPADS 2002) , 17-20 December 2002, Taoyuan, Taiwan. (EI)",
+      "href": "https://ieeexplore.ieee.org/document/1183459"
+    }
+  ],
+  "nstc": [
+    {
+      "title": "資料收集與邊緣計算機制於具有位置不確定性之水下無線感測網路，計畫主持人，2024.08~2025.07"
+    },
+    {
+      "title": "水下無線感測網路之數據收集機制與邊緣計算， 計畫主持人， 2023.08~2024.07"
+    },
+    {
+      "title": "以搬運為基礎之感測器部署問題於線性及網狀工業物聯網， 計畫主持人， 2021.08~2023.07 (多年期計畫)"
+    },
+    {
+      "title": "不規則場景之防禦線覆蓋系統–設計與實現， 計畫主持人， 2020.08~2021.07"
+    },
+    {
+      "title": "以目標物為基礎之防禦線覆蓋系統–設計與實現， 計畫主持人， 2018.08~2020.07 (多年期計畫)"
+    },
+    {
+      "title": "軟體定義網路之容錯機制設計與建構， 計畫主持人， 2017.08~2018.07"
+    },
+    {
+      "title": "無線感測網路中具低延遲性之行動資料收集器路徑規畫研究， 計畫主持人， 2016.08~2017.07"
+    },
+    {
+      "title": "車載隨意網路上即時容錯機制之設計與建構， 計畫主持人， 2015.08~2016.07"
+    },
+    {
+      "title": "車載隨意網路上容錯機制之設計與建構， 計畫主持人， 2014.08~2015.07"
+    },
+    {
+      "title": "分散式雲端網路環境下即時容錯協議問題之研究， 計畫主持人， 2013.08~2014.07"
+    },
+    {
+      "title": "分散式雲端網路環境下各種容錯協議相關問題之研究 ， 計畫主持人，2012.08~2013.07"
+    },
+    {
+      "title": "行動隨意式網路下強勢合議問題以及錯誤診斷問題之研究， 計畫主持人， 2010.01~2012.07 (多年期計畫)"
+    }
+  ]
+}

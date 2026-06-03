@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta
+      name="description"
+      content="NTOU Mobile Computing and Networking Lab — 行動計算與網路實驗室"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>教學 / Teaching - MCN Lab's Website</title>
+    <link href="style.css" rel="stylesheet" media="screen" />
+    <style>
+      .style4 {
+        color: #e6700e;
+      }
+      .style10 {
+        font-size: larger;
+      }
+      .style12 {
+        font-size: 12px;
+      }
+      .style14 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .course-list {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+      .semester-title {
+        margin-top: 20px;
+        color: #333;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="logo"></div>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="index.html">首頁 / Home</a></li>
+          <li class="current_page_item">
+            <a href="teaching.html">教學 / Teaching</a>
+          </li>
+          <li><a href="research.html">研究 / Research</a></li>
+          <li><a href="service.html">服務 / Service</a></li>
+          <li><a href="members.html">成員 / Members</a></li>
+          <li><a href="eng.html">English</a></li>
+          <li><a href="/lab">Login</a></li>
+        </ul>
+      </div>
+      <div id="page">
+        <div id="page-bgtop">
+          <div id="page-bgbtm">
+            <div id="content" style="width: 100%">
+              <div class="post">
+                <h2 class="style4 title style14">
+                  <span class="style10">教學 / Teaching</span>
+                </h2>
+                <div class="entry" id="courses-container"></div>
+              </div>
+              <div style="clear: both"></div>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+              <p style="text-align: right">Welcome to MCN Lab's website!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>
+        <span class="style12"
+          >Copyright © 2021 Mobile Computing and Network Lab @ CSE.NTOU All
+          rights reserved.</span
+        >
+      </p>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const jsonUrl =
+          "/static/courses.json";
+
+        fetch(jsonUrl)
+          .then((res) => res.json())
+          .then((data) => {
+            const container = document.getElementById("courses-container");
+            if (!container || !data) return;
+
+            data.forEach((semesterData) => {
+              // Create the Semester Header
+              const semesterHeading = document.createElement("h3");
+              semesterHeading.className = "semester-title";
+              semesterHeading.textContent = semesterData.semester;
+              container.appendChild(semesterHeading);
+
+              // Create the list for Courses in that semester
+              const courseList = document.createElement("ul");
+              courseList.className = "course-list";
+
+              if (semesterData.course && semesterData.course.length > 0) {
+                semesterData.course.forEach((c) => {
+                  const li = document.createElement("li");
+                  // Formatting: Course Name - Department (Credits)
+                  li.innerHTML = `<strong>${c.name}</strong> - ${c.department} (${c.credit} Credits)`;
+                  courseList.appendChild(li);
+                });
+              } else {
+                const li = document.createElement("li");
+                li.textContent = "No courses listed for this semester.";
+                courseList.appendChild(li);
+              }
+
+              container.appendChild(courseList);
+            });
+          })
+          .catch((error) =>
+            console.error("Error fetching courses data:", error),
+          );
+      });
+    </script>
+  </body>
+</html>
