@@ -16,7 +16,7 @@
 
 ## 資料說明
 
-### [home.json](https://github.com/NTOU-MCNLab/mcnlab_web_static/blob/main/home.json)
+### [home.json](/static/home.json)
  1. labAwards
  獲獎訊息，位於首頁左上
  ```json
@@ -54,7 +54,7 @@
     }
 ]
 ```
-### [courses.json](https://github.com/NTOU-MCNLab/mcnlab_web_static/blob/main/courses.json)
+### [courses.json](/static/courses.json)
 開課資訊
 ```json
 [
@@ -70,7 +70,7 @@
   }
 ]
 ```
-### [research.json](https://github.com/NTOU-MCNLab/mcnlab_web_static/blob/main/research.json)
+### [research.json](/static/research.json)
  1. 期刊論文
 ```json
 "journals": [
@@ -98,7 +98,7 @@
     }
 ]
 ```
-### [members.json](https://github.com/NTOU-MCNLab/mcnlab_web_static/blob/main/members.json)
+### [members.json](/static/members.json)
 1. 在學研究生
 ```json
 "postgraduate": [
@@ -122,7 +122,7 @@
     }
 ]
 ```
-### [service.json](https://github.com/NTOU-MCNLab/mcnlab_web_static/blob/main/service.json)
+### [service.json](/static/service.json)
 ```json
 {
   "journal": [
@@ -167,7 +167,7 @@
   ],
 }
 ```
-### [photo.json](https://github.com/NTOU-MCNLab/mcnlab_web_static/blob/main/photo.json)
+### [photo.json](/static/photo.json)
 1. 聚餐照片
 ```json
 "party" : [
@@ -187,7 +187,7 @@
         }
 ]
 ```
-### [english.json](https://github.com/NTOU-MCNLab/mcnlab_web_static/blob/main/english.json)
+### [english.json](/static/english.json)
 ```json
 [
   {
