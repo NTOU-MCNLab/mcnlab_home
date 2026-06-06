@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: #ffffff url(images/img01.webp) repeat-x left top;
+  background: linear-gradient(to bottom, #c5c5c5, #ffffff) top / 100% 700px no-repeat, #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #7f7f81;
@@ -182,7 +182,7 @@ img.aligncenter {
   box-sizing: border-box;
   background: linear-gradient(180deg, #f0aa45 0%, #db7711 52%, #a64c02 100%);
   border: 1px solid #9b4806;
-  border-radius: 16px 16px 0 0;
+  border-radius: 16px;
   box-shadow:
     0 10px 24px rgba(109, 49, 1, 0.2),
     inset 0 1px 0 rgba(255, 244, 220, 0.55);
@@ -270,13 +270,11 @@ img.aligncenter {
 #page {
   max-width: 1000px;
   width: 100%;
-  margin: 0 auto;
+  margin: 5px auto 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #ffffff;
-  background-image: url(images/img03.webp);
-  background-repeat: no-repeat;
-  background-position: left top;
+  background: #ffffff;
+  border-radius: 8px 8px 0 0;
 }
 
 #page-bgbtm {
@@ -367,10 +365,16 @@ img.aligncenter {
 }
 
 #sidebar li li {
-  padding: 0 15px;
+  padding: 0 15px 0 20px;
   line-height: 35px;
-  background: url(images/img07.webp) no-repeat left 14px;
   border-bottom: 1px solid #eff4f5;
+  position: relative;
+}
+
+#sidebar li li::before {
+  content: "›";
+  position: absolute;
+  left: 6px;
 }
 
 #sidebar li li span {
@@ -385,7 +389,8 @@ img.aligncenter {
   height: 38px;
   margin-bottom: 20px;
   padding: 12px 0 0 15px;
-  background: url(images/img08.webp) no-repeat left top;
+  background: #b2d43b;
+  border-radius: 8px 8px 0 0;
   letter-spacing: -1px;
   font-size: 24px;
   color: #ffffff;
@@ -448,10 +453,16 @@ img.aligncenter {
 }
 
 #down-sidebar li li {
-  padding-left: 15px;
+  padding-left: 20px;
   line-height: 35px;
-  background: url(images/img07.webp) no-repeat left 14px;
   border-bottom: 1px solid #eff4f5;
+  position: relative;
+}
+
+#down-sidebar li li::before {
+  content: "›";
+  position: absolute;
+  left: 6px;
 }
 
 #down-sidebar li li span {
@@ -466,7 +477,8 @@ img.aligncenter {
   height: 38px;
   margin-bottom: 20px;
   padding: 12px 0 0 15px;
-  background: url(images/img08.webp) no-repeat left top;
+  background: #b2d43b;
+  border-radius: 8px 8px 0 0;
   letter-spacing: -1px;
   font-size: 24px;
   color: #ffffff;
@@ -517,7 +529,8 @@ img.aligncenter {
   height: auto;
   margin: 0px auto;
   box-sizing: border-box;
-  background: #eaeaea url(images/img04.webp) no-repeat left top;
+  background: #6C9611;
+  border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
