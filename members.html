@@ -74,19 +74,18 @@
     <!-- end #footer -->
     <script>
       (function () {
-        var DATA_URL =
-          "/static/members.json";
+        const DATA_URL = "/static/members.json";
 
         function createMemberCell(item, isGraduate) {
-          var td = document.createElement("td");
+          const td = document.createElement("td");
           td.setAttribute("width", "50%");
           td.setAttribute("align", "center");
           td.setAttribute("valign", "middle");
-          var div = document.createElement("div");
+          const div = document.createElement("div");
           div.setAttribute("align", "justify");
 
-          var p1 = document.createElement("p");
-          var img = document.createElement("img");
+          const p1 = document.createElement("p");
+          const img = document.createElement("img");
           img.src = "/images/members/" + item.img;
           img.width = 96;
           img.height = 128;
@@ -96,8 +95,8 @@
           p1.appendChild(img);
           div.appendChild(p1);
 
-          var p2 = document.createElement("p");
-          var lines = [
+          const p2 = document.createElement("p");
+          const lines = [
             "姓名：" + item.name,
             "系所：" + item.dept,
             "修業期間：" + item.period,
@@ -117,20 +116,20 @@
         }
 
         function populateTable(tableId, items, isGraduate) {
-          var table = document.getElementById(tableId);
+          const table = document.getElementById(tableId);
           table.setAttribute("width", "100%");
           table.setAttribute("cellpadding", "10");
           table.setAttribute("cellspacing", "0");
-          for (var i = 0; i < items.length; i += 2) {
-            var tr = document.createElement("tr");
+          for (let i = 0; i < items.length; i += 2) {
+            const tr = document.createElement("tr");
             tr.appendChild(createMemberCell(items[i], isGraduate));
             if (i + 1 < items.length) {
               tr.appendChild(createMemberCell(items[i + 1], isGraduate));
             }
             table.appendChild(tr);
             if (i + 2 < items.length) {
-              var spacer = document.createElement("tr");
-              var spacerTd = document.createElement("td");
+              const spacer = document.createElement("tr");
+              const spacerTd = document.createElement("td");
               spacerTd.setAttribute("colspan", "2");
               spacerTd.setAttribute("bgcolor", "#FFFFFF");
               spacerTd.innerHTML = "&nbsp;";

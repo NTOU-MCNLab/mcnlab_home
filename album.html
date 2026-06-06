@@ -167,31 +167,30 @@
     </div>
     <script>
       (function () {
-        var DATA_URL =
-          "/static/photo.json";
+        const DATA_URL = "/static/photo.json";
 
         function createCard(imgSrc, title, date) {
-          var card = document.createElement("div");
+          const card = document.createElement("div");
           card.className = "photo-card";
-          var a = document.createElement("a");
+          const a = document.createElement("a");
           a.href = imgSrc;
           a.target = "_blank";
 
-          var wrapper = document.createElement("div");
+          const wrapper = document.createElement("div");
           wrapper.className = "photo-wrapper";
-          var img = document.createElement("img");
+          const img = document.createElement("img");
           img.src = imgSrc;
           img.alt = title;
           img.loading = "lazy";
           wrapper.appendChild(img);
 
-          var info = document.createElement("div");
+          const info = document.createElement("div");
           info.className = "photo-info";
-          var h3 = document.createElement("h3");
+          const h3 = document.createElement("h3");
           h3.textContent = title;
           info.appendChild(h3);
           if (date) {
-            var p = document.createElement("p");
+            const p = document.createElement("p");
             p.textContent = date;
             info.appendChild(p);
           }
@@ -207,7 +206,7 @@
             return res.json();
           })
           .then(function (data) {
-            var partyGallery = document.getElementById("party-gallery");
+            const partyGallery = document.getElementById("party-gallery");
             if (data.party) {
               data.party.forEach(function (item) {
                 partyGallery.appendChild(
@@ -216,7 +215,7 @@
               });
             }
 
-            var envGallery = document.getElementById("environment-gallery");
+            const envGallery = document.getElementById("environment-gallery");
             if (data.environment) {
               data.environment.forEach(function (item) {
                 envGallery.appendChild(createCard(item.img, item.title));

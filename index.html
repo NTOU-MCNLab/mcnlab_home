@@ -184,8 +184,7 @@
     <!-- end #footer -->
     <script>
       (function () {
-        var DATA_URL =
-          "/static/home.json";
+        const DATA_URL = "/static/home.json";
 
         fetch(DATA_URL)
           .then(function (res) {
@@ -193,31 +192,31 @@
           })
           .then(function (data) {
             // 獲獎訊息
-            var labAwardsList = document.getElementById("lab-awards-list");
+            const labAwardsList = document.getElementById("lab-awards-list");
             if (data.labAwards) {
               data.labAwards.forEach(function (item) {
-                var li = document.createElement("li");
+                const li = document.createElement("li");
                 li.textContent = item.text;
                 labAwardsList.appendChild(li);
               });
             }
 
             // 實驗室動態
-            var activitiesList = document.getElementById("activities-list");
+            const activitiesList = document.getElementById("activities-list");
             if (data.activities) {
               data.activities.forEach(function (item) {
-                var li = document.createElement("li");
+                const li = document.createElement("li");
                 li.textContent = item.text;
                 activitiesList.appendChild(li);
               });
             }
 
             // 研討會訊息
-            var conferencesList = document.getElementById("conferences-list");
+            const conferencesList = document.getElementById("conferences-list");
             if (data.conferences) {
               data.conferences.forEach(function (item) {
-                var li = document.createElement("li");
-                var a = document.createElement("a");
+                const li = document.createElement("li");
+                const a = document.createElement("a");
                 a.href = item.href;
                 a.textContent = item.text;
                 li.appendChild(a);
@@ -226,7 +225,7 @@
             }
 
             // 榮譽獎勵
-            var advisorAwards = document.getElementById("advisor-awards");
+            const advisorAwards = document.getElementById("advisor-awards");
             if (data.advisorAwards) {
               data.advisorAwards.forEach(function (item, i) {
                 advisorAwards.insertBefore(
